@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include 'seguridad.php' ?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

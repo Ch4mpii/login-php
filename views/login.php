@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include 'seguridad.php' ?>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,19 +9,19 @@
 </head>
 
 <body>
-    <div class="login-container">
-        <form id="login-form">
-            <h2>Iniciar Sesión</h2>
-            <div class="input-group">
-                <label for="usuario">Usuario</label>
-                <input type="text" id="usuario" name="usuario" required>
-            </div>
-            <div class="input-group">
-                <label for="contrasena">Contraseña</label>
-                <input type="password" id="contrasena" name="contrasena" required>
-            </div>
-            <button type="button" id="login-btn">Ingresar</button>
-        </form>
-    </div>
+<div class="login-container">
+    <form id="login-form" action="validar-login.php" method="POST">
+        <h2>Iniciar Sesión</h2>
+        <div class="input-group">
+            <label for="usuario">Usuario</label>
+            <input type="text" id="usuario" name="usuario" required>
+        </div>
+        <div class="input-group">
+            <label for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+        </div>
+        <button type="submit" id="login-btn">Ingresar</button>
+    </form>
+</div>
 </body>
 </html>

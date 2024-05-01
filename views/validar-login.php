@@ -1,7 +1,5 @@
 <?php
-/*
-TODO Cuando se pase la verificacion del login a la API borrar este fichero
- */
+
 // Comprobación de usuario y contraseña (esto debe ser más complejo en un entorno real)
 $usuario = "usuario"; // Reemplaza con tu nombre de usuario
 $contrasena = "contrasena"; // Reemplaza con tu contraseña
@@ -13,7 +11,7 @@ if ($_POST['usuario'] === $usuario && $_POST['contrasena'] === $contrasena) {
     header("Location: index.php");
 } else {
     echo "Credenciales incorrectas";
-    header("Location: login.php")
+    header("Location: login.php");
 }
 ?>
 
