@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("../images/bg3.jpg"); 
+    color: #fff; /* Texto blanco */
+}
+
+.login-container {
+    background-color: #333; /* Color de fondo del contenedor gris oscuro */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* Color del texto blanco */
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
+
+.input-group label {
+    color: #ccc; /* Color del texto gris claro */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #555; /* Color del borde gris más oscuro */
+    border-radius: 4px;
+    color: #fff; /* Texto blanco */
+    background-color: #555; /* Color de fondo gris más oscuro */
+}
+
+button {
+    padding: 10px;
+    background-color: #222; /* Color de fondo del botón gris aún más oscuro */
+    color: #fff; /* Color del texto blanco */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #111; /* Color de fondo del botón al pasar el cursor, gris muy oscuro */
+}
