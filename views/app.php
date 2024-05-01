@@ -13,7 +13,7 @@
     <header>
         <img src="../assets/images/bg3.jpg" alt="">
         <nav>
-            <a href="/To-do-app.html">ToDo APP</a>
+            <a href="/views/To-do-app.php">ToDo APP</a>
             <a href="#">About</a>
             <a href="#">Services</a>
             <a href="#">Contact</a>
